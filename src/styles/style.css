@@ -1,0 +1,197 @@
+/* ДЛЯ СЕБЯ WIDTH ВМЕСТО 940PX ПОСЧИТАТЬ ПРОЦЕНТЫ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Сделай стили для классов, а не для элементов */
+
+body {
+    font-family: "Lora", serif;
+    font-family: "Oxygen", sans-serif;
+    color: #2E2E2E;
+}
+
+.header-line {
+    margin: 17px auto;
+    margin-bottom: 0;
+    height: 40px;
+    width: 940px;
+}
+
+img {
+    width: 92px;
+    height: 26px;
+    margin-top: 3px;
+}
+
+.header__nav {
+    float: right;
+    position: relative;
+    bottom: 33px;
+    height: 40px;
+    width: 376.61px;
+}
+
+li {
+    display: inline;
+
+}
+
+.header__list {
+    list-style: none;
+    margin-top: 7px;
+}
+
+.header__link {
+    font-family: "Oxygen", sans-serif;
+    color: #2E2E2E;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.header__link:first-child {
+    margin-left: 20px;
+}
+
+.header__link:last-child {
+    margin-right: 20px;
+}
+
+/* header__down */
+.header__down {
+    width: 940px;
+    height: 159px;
+    margin: 89px auto 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+.h1 {
+    margin: -7px auto 0;
+    width: 498px;
+    height: 51px;
+    font-family: "Lora", serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 51px;
+    font-weight: normal;
+}
+
+.h2 {
+    margin: 20px auto 0;
+    font-size: 17px;
+    color: rgba(46, 46, 46, 0.63);
+    line-height: 20px;
+    font-weight: normal;
+}
+
+/*_________ main_________ */
+
+.box {
+    background: rgba(247, 247, 247, 1);
+    min-width: 960px;
+    margin: 0 auto; 
+
+}
+
+.big-picture {
+    /* min-height: 500px; */
+    /* background: url(../images/intro.jpg) no-repeat center; */
+    height: 534px;
+    margin-top: 36px;
+
+}
+
+.big-picture img {
+    width: 100%;
+    height: 100%
+    /* max-width: 1000px;
+    object-fit: cover;
+    object-position: center;
+    background-image: no-repeat;
+    background: center;
+    background-size: cover; */
+} 
+
+.text-block {
+    margin: 140px auto 0;
+    width: 960px;
+    height: 1431px;
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(16, 19, 21, 1);
+
+
+}
+/* использовать  br для абзацав и всего один p*/
+.p {
+    padding-top: 35px;
+}
+
+.p:first-child {
+    padding-top: 0pc;
+}
+
+/* bottom__container */
+.bottom__container {
+    width: 100%;
+    height: 89px;
+    margin: 135px auto 0;
+    background: url(../images/bottom_img.svg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bottom__picture {
+    background: rgba(35, 47, 56, 0.6);
+    padding: 28px 0 27px 0;
+}
+
+.bottom-line {
+    width: 960px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.bottom__logo {
+    height: 26px;
+    width: 92px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.bottom__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom__nav {
+    float: right;
+    position: relative;
+    bottom: 23px;
+
+}
+
+.bottom__list {
+    list-style: none;
+}
+
+.bottom__link {
+    font-family: "Oxygen", sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.bottom__link:first-child {
+    margin-right: 10px;
+}
